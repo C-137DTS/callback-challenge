@@ -1,5 +1,5 @@
 const API = 'https://rickandmortyapi.com/api/character/'
-let character_id = parseInt(prompt('Que personajes deseas obtener: '))
+let character_id = parseInt(prompt('Digite el Id del personaje que deseas obtener: '))
 
 function fetchData(url_api, callback) {
     let xhttp = new XMLHttpRequest()
